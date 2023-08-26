@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Form FreeCodeCamp</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Main Form About Developers Career</h1>
+        <p id="description">This is a little form where you can fill it up with some of your personal information for building a short project </p>
+        <div class="container1">
+            <form id="survey-form">
+                <div class="container2">
+                    <label id="name-label"> Name <input required id="name" type="text" placeholder="Enter your full name"></label>
+                </div>
+                <div class="container2">
+                    <label id="email-label"> Email <input required id="email" type="email" placeholder="Enter your email"></label>
+                </div>
+                <div class="container2">
+                  <label id="number-label"> Age <input id="number" type="number" placeholder="number" min="18" max="50"></label>  
+                </div>
+                <div class="container2">
+                    <label>Select your current rol</label>
+                    <select id="dropdown">
+                        <option checkbox="" disabled selected value="">(select one opcion)</option>
+                        <option name="">Web Designer</option>
+                        <option name="">Web Programmer</option>
+                        <option name="">Full stack</option>
+                        <option name="">Front-End</option>
+                        <option name="">Back-End</option>
+                    </select>
+                </div>
+                <label>
+                    <input type="radio" name="primero" value="value">Remote
+                    <input type="radio" name="primero" value="value">Office
+                </label>
+                <label>
+                    <input type="radio" name="segundo" value="value">Full-time
+                    <input type="radio" name="segundo" value="value">Part-time
+                </label>
+                <label><input type="checkbox" value="first">Day-shift</label>
+                <label><input type="checkbox" value="second">Night-shift</label>
+                <textarea placeholder="Type any suggestions ... (optional)"></textarea>
+                <input type="submit" id="submit" value="submit"></input>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>

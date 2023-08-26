@@ -1,0 +1,74 @@
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background: linear-gradient(rgb(42, 201, 153), rgb(104, 190, 24));
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#title{
+    margin: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#description{
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+}
+
+#survey-form{
+    background-color: beige;
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.container2{
+    padding: 20px;
+}
+
+label{
+    margin: 10px;
+    font-size: 20px;
+}
+
+input{
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+}
+
+#name, #email, #age{
+    width: 70%;
+}
+
+textarea{
+    border-radius: 10px;
+    height: 80px;
+    font-size: 15px;
+}
+
+#submit{
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(rgb(42, 201, 153), rgb(104, 190, 24));
+    border-radius: 10px;
+}
+
+#submit:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 2px #000;
+}
