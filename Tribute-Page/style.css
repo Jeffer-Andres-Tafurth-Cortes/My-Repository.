@@ -1,0 +1,42 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    padding: 10px;
+    background-color: #bbb;
+}
+
+h1, h2{
+    display: inline-block;
+}
+  
+#main{
+    text-align: center;
+}
+
+
+#img-div, #time-line, h2, h1{
+    background-color: #fff; 
+    border-radius: 18px;
+}
+
+img{
+    display: block;
+    height: auto;
+    padding-left: 50px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+ul{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: left;
+}
+
+li{
+    padding: 10px;
+}
